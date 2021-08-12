@@ -17,6 +17,7 @@ Build-Depends:
  libsimple-trace-dev,
  libresource-dev,
  libprofile-dev,
+ libdres-dev,
  libdbus-1-dev,
  libdbus-glib-1-dev,
  bison,
