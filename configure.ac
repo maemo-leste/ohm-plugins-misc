@@ -4,7 +4,7 @@
 AC_PREREQ(2.61)
 
 AC_INIT([ohm-plugins-misc],
-	m4_esyscmd([build-aux/git-version-gen .tarball-version]),
+	[1.7.0.1],
 	[multimedia at maemo.org])
 
 AC_CONFIG_SRCDIR([plugins/profile/profile.c])
