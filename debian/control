@@ -1,0 +1,87 @@
+Source: ohm-plugins-misc
+Section: libs
+Priority: optional
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ libtool,
+ libtool-bin,
+ autoconf,
+ autoconf-archive,
+ automake,
+ pkg-config,
+ check,
+ libprolog-dev,
+ ohm-dev,
+ libglib2.0-dev,
+ libsimple-trace-dev,
+ libresource-dev,
+ libprofile-dev,
+ bison,
+ flex,
+Standards-Version: 4.3.0
+
+Package: ohm-plugins-misc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: A miscallaneous set of OHM plugins by Nokia.
+
+Package: ohm-plugin-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM console plugin for debug interface.
+
+Package: ohm-plugin-dspep
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM dspep plugin provides policy enforcement point for DSP.
+
+Package: ohm-plugin-dbus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: DBus related plugins for OHM.
+
+Package: ohm-plugin-telephony
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM telephony plugin provides policy control points for telephony
+
+Package: ohm-plugin-signaling
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM signaling plugin provides functionality required by videoep and dspep.
+
+Package: ohm-plugin-media
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM media plugin provides policy enforcement point for media playback.
+
+Package: ohm-plugin-accessories
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM accessories plugin provides functionality to detect plugged in device accessories.
+
+Package: ohm-plugin-route
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM plugin for querying and requesting audio routes.
+
+Package: ohm-plugin-route-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: Headers for Route plugin D-Bus API.
+
+Package: ohm-plugin-mdm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM plugin for querying and requesting audio routes.
+
+Package: ohm-plugin-mdm-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: Headers for MDM plugin D-Bus API.
+
+Package: ohm-plugin-profile
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ohm
+Description: OHM profile plugin provides functionality to detect profile changes.

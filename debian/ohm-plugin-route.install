@@ -1,0 +1,2 @@
+usr/lib/*/ohm/libohm_route.so
+etc/dbus-1/system.d/ohm-plugin-route.conf

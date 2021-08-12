@@ -1,0 +1,12 @@
+usr/lib/*/ohm/libohm_auth.so
+usr/lib/*/ohm/libohm_auth_test.so
+usr/lib/*/ohm/libohm_delay.so
+usr/lib/*/ohm/libohm_fsif.so
+usr/lib/*/ohm/libohm_resource.so
+usr/bin/ohm-session-agent
+etc/ohm/plugins.d/auth.ini
+etc/ohm/plugins.d/resource.ini
+etc/dbus-1/session.d/*.conf
+usr/share/dbus-1/services/org.freedesktop.ohm_session_agent.service
+#%{_userunitdir}/*.service
+#%{_userunitdir}/pre-user-session.target.wants/ohm-session-agent.service

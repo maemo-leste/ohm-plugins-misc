@@ -1,0 +1,3 @@
+usr/lib/*/ohm/libohm_mdm.so
+etc/dbus-1/system.d/ohm-plugin-mdm.conf
+etc/pulse/xpolicy.conf.d/mdm-audio.conf
