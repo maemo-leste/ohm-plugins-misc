@@ -17,3 +17,5 @@ $(top_srcdir)/.version:
 clean-local:
 	find . -name \*~ -exec rm -f {} \;
 
+install-exec-hook:
+	find $(DESTDIR) -type f -name \*.la -delete
